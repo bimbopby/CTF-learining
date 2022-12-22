@@ -36,7 +36,7 @@ import string
 
 string = string.printable
 string = string[:-4]
-string = string.replace('*', '')
+string = string.replace('*', '') # 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()+,-./:;<=>?@[\]^_`{|}~
 
 url = 'http://159.65.19.4:30908/login'
 
